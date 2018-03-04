@@ -1,0 +1,10 @@
+/* style.css */
+
+/* Style to fix the issue of text extending past panel length */
+.panel-body a {
+	word-break: break-all;
+}
+
+.mb {
+	margin-bottom: 10px;
+}
