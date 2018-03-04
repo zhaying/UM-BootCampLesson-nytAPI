@@ -1,5 +1,5 @@
 // BGN Global Variables
-var theUrl  = "http://developer.nytimes.com/proxy/https/api.nytimes.com/svc/search/v2/articlesearch.json";
+var theUrl  = "https://developer.nytimes.com/proxy/https/api.nytimes.com/svc/search/v2/articlesearch.json";
 var options = { 'api-key': "47fde69a831a42aeb6cdfc5b0aa4b192" };
 
 // END Global Variables
@@ -8,7 +8,7 @@ var options = { 'api-key': "47fde69a831a42aeb6cdfc5b0aa4b192" };
 // BGN Functions
 var resetList = function() {
     // Reset theUrl and options
-    theUrl  = "http://developer.nytimes.com/proxy/https/api.nytimes.com/svc/search/v2/articlesearch.json";
+    theUrl  = "https://developer.nytimes.com/proxy/https/api.nytimes.com/svc/search/v2/articlesearch.json";
     options = { 'api-key': "47fde69a831a42aeb6cdfc5b0aa4b192" };
     // Clear div for next list of articles
     $("#articleHolder").empty();
